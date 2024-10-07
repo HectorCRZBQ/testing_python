@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+table {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-sm {
+    margin-right: 5px;
+}

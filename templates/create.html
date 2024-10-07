@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Starfish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Create a New Starfish</h1>
+        <form method="POST">
+            <div class="form-group mb-3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="color">Color</label>
+                <input type="text" class="form-control" id="color" name="color" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="limbs">Number of Limbs</label>
+                <input type="number" class="form-control" id="limbs" name="limbs" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="depth">Depth (m)</label>
+                <input type="number" step="0.1" class="form-control" id="depth" name="depth" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="gender">Gender</label>
+                <input type="text" class="form-control" id="gender" name="gender" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="latin_name">Latin Name</label>
+                <input type="text" class="form-control" id="latin_name" name="latin_name" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="habitat">Habitat</label>
+                <input type="text" class="form-control" id="habitat" name="habitat" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+    </div>
+</body>
+</html>
